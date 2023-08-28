@@ -1,51 +1,68 @@
-//this file is supposed to give you a general idea on what each of what you are supposed to do in each exercice. the subjects are not formulated exaclty the same way they are in the exam but they are correct//
+//this file is supposed to give you a general idea on what each of what you are supposed to do in each exercice. the subjects are not formulated exaclty the same way as they are in the exam but they are correct//
 
-----------------------------------------
-project name :occ_a.c 
+-----------------------------------------
+-----------------------------------------
+Project name :  occ_a.c 
 
-create a function that returns the number of 'A' in a given string.
+Create a function that returns the number of 'A' in a given string.
 
-----------------------------------------
-project name :interval_space.c
+-----------------------------------------
+-----------------------------------------
+Project name :  interval_space.c
 
-create a program that writes three whitespaces between each character in an argument,if the number of arguments is different than 2 the program will return a newline
+Create a program that writes three whitespaces between each character in an argument.
+If the number of arguments is different than 2 the program will return a newline.
 
 ./a.out abc | cat -e
 a   b   c$
 ./a.out "" | cat -e
 $
-----------------------------------------
-project name :ft_subtract.c
 
-create a function that subtracts an integer from an integer pointed by a pointer.the parameters are an integer and a pointer pointing to an integer.
-
-it should be prototyped as such
-
-void	ft_subtract(int a, int *ptr)
 -----------------------------------------
-project name:ft_interval.c
+-----------------------------------------
+Project name :  ft_subtract.c
 
-create a program that turns in an argument the character to '5' each time the index is a multiple of 3.and to '3' each time the index is a multiple of 5, and to '5' if its a multiple of both.
+Create a function that subtracts an integer from an integer pointed by a pointer. The parameters are an integer and a pointer pointing to an integer.
+It should be prototyped as such:
+
+void  ft_subtract(int a, int *ptr)
+
+-----------------------------------------
+-----------------------------------------
+Project name :  ft_interval.c
+
+Create a program that turns in an argument the character to '5' each time the index is a multiple of 3, and to '3' each time the index is a multiple of 5, and to '5' if its a multiple of both.
+If the number of arguments is different than 2 the program will return a newline.
 
 ./a.out it's me mario hehe | cat -e
 it5s35e 53r5o 5eh5$
------------------------------------------
-project name: even.c
 
-create a program that only writes the character if the index its on in is a multiple of 2.
+-----------------------------------------
+-----------------------------------------
+project name :  even.c
+
+Create a program that only writes the character if the index its on in is a multiple of 2.
 
 ./a.out "FOR 42" | cat -e
 FR4$
-----------------------------------------
-project name: count_words.c
 
-create a function that returns the count of words in a given string
-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+project name :  count_words.c
+
+Create a function that returns the count of words in a given string.
+
+-----------------------------------------
+-----------------------------------------
 project name: count_lines.c
 
 create a function that returns the count of words in a given string
-----------------------------------------
-project name: count_alen.c
 
-create a function that returns the length of a string till an 'a', if 'a' dosent exist it in the string it will simply return the whole strings length
-----------------------------------------
+-----------------------------------------
+-----------------------------------------
+project name :  count_alen.c
+
+Create a function that returns the length of a string till an 'a', if 'a' dosent exist it in the string it will simply return the whole strings length.
+
+-----------------------------------------
+-----------------------------------------
