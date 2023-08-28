@@ -1,5 +1,5 @@
 # 1337
- My solutions for the June Piscine 2021. <br />
+ Some new exercices that popped up in the 42/1337 exams. <br />
   Please open an issue on github if you find anything incorrect.<br/>
   If you have any tips I would like to hear, any feedback is appreciated. Thank you. <br/>
  `Don't Copy, Learn.` <br />
